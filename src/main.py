@@ -4,7 +4,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 from src.setup import driver
-# from src.setupedge import create_driver
 
 # driver = create_driver()
 
@@ -12,6 +11,8 @@ from src.setup import driver
 
 driver.get("https://gmail.com")
 
+# These may change in future. Use HTML inspections to try
+# and find a class name that is unique to unread emails and subject lines.
 email_selector = "tr.zE"
 subject_selector = "span.bog"
 
