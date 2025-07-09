@@ -33,3 +33,8 @@ chromedriver.log
 .DS_Store
 # Windows
 Thumbs.db
+
+# --- Secret Files ---
+chrome_profile/
+edge_profile/
+import os/
