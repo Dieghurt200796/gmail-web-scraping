@@ -8,5 +8,5 @@ using Google's API directly. The code is found in the working-code directory.
 
 
 ## Usage:
-Paste the code from main.gs into a new project in script.google.com.
-This repository only serves as a manual version control.
+Paste the code from log_emails.gs and delete_emails.gs into a new project in 
+script.google.com. This repository only serves as a manual version control.
