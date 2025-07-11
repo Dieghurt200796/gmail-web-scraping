@@ -1,4 +1,4 @@
-function getSubjects() {
+function getEmails() {
   const threads = GmailApp.search('is:unread');
 
   if (threads.length === 0) {
@@ -46,7 +46,7 @@ function addToSheet(info, sheetId) {
 }
 
 function writeAllInfo() {
-  const threads = getSubjects();
+  const threads = getEmails();
   const sheetId = "17X3hpLVQ1LUWV6hzy9eyN-svP5Wak1ReLMbIlC2oDOA";
   for (const thread of threads) {
     const fullDate = thread.getMessages()[0].getDate();
